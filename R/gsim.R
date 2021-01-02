@@ -2,10 +2,6 @@
 
 #' Create a **gsim** table object
 #'
-#' The `gsim()` function creates a **gt** table object when provided with table
-#' data. Using this function is the first step in a typical **gt** workflow.
-#' Once we have the **gt** table object, we can perform styling transformations
-#' before rendering to a display table of various formats.
 
 gsim <- function(data = NULL , target_rows = NULL ){
 
