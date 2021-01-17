@@ -41,6 +41,7 @@ gsim <- function(data = NULL , target_rows = 1000 , seed = 12345){
 }
 
 #' This functionality is not yet implemented
+#' @noRd
 expand_dataset <- function(.data ,  target_rows ){
   # TODO : write the expand function here
   msg_warning(" Expanding dataset feature not implemented. target_rows will be same as source data = {nrow(data)}")
